@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import {BsDropdownModule, ModalModule, TooltipModule} from "ngx-bootstrap";
+import {AlertModule, BsDropdownModule, ModalModule, TooltipModule} from "ngx-bootstrap";
 
 
 @NgModule({
@@ -13,6 +13,7 @@ import {BsDropdownModule, ModalModule, TooltipModule} from "ngx-bootstrap";
   imports: [
     BrowserModule,
     BsDropdownModule.forRoot(),
+    AlertModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
